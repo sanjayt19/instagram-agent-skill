@@ -77,6 +77,12 @@ accounts, through Instagram's own tools and approved partners. Bulk DMing
 people who did not interact is not, and it is what gets accounts restricted.
 The rule is simple: **they act first, then you reply.**
 
+## Ungated mode
+
+When UNGATED.md is active, the DM funnel above is off. Question boxes and
+polls are fine (conversation, not funnel). No keyword boxes, no DM-gated
+delivery, no "reply for the link".
+
 ## Output
 
 The frames in order, each with what is on screen, what is said, and which
