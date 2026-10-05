@@ -111,6 +111,15 @@ Then stop. A third converts nobody and costs the relationship.
 - Never open with "Hey! Quick question" and then not ask a question.
 - Never send the pitch in the same message as the compliment.
 
+## Ungated mode and paused outreach
+
+When UNGATED.md is active, no keyword-triggered posts go out, so there is
+nothing to deliver. Draft the copy anyway; it ships when the month ends.
+
+This skill drafts only. Sending stays manual, always. If the account owner
+has paused outreach (flag, warning, or their own call), file the drafts and
+send nothing until they explicitly reactivate.
+
 ## Output
 
 The message, the character count, and the two follow-ups with the day each
