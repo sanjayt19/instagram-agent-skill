@@ -267,6 +267,24 @@ would rather know. The measurement script is not in the repo because it depends
 on `yt-dlp`, but the method is four lines and is written out in
 [`/ig-viral`](skills/ig-viral/SKILL.md).
 
+## Fork notes (Shvii adaptations)
+
+This fork adds four things on top of upstream, all documented where they live:
+
+- **UNGATED.md** - a trust-first month switch. When active, every CTA rule in
+  the pack is suspended: carousels end on pure value, captions end on the
+  thought, no keyword funnels anywhere. Per-skill callouts in `ig-carousel`,
+  `ig-caption`, `ig-reel`, `ig-story`, `ig-dm`.
+- **Brand lexicon** - `skills/ig-human/slop-shvii.json` (built by
+  `build-shvii-lexicon.py`) merges the base slop list with a career-content
+  ban list. Use with `--lexicon`. Never hand-edit the generated file.
+- **Brand voice** - `templates/voice-brand.md`, a voice profile for a brand
+  account instead of a person on camera.
+- **Flagged-account mode** - conservative engagement caps in `ig-comment`
+  and `ig-plan` for accounts with a prior automation flag, plus a drafts-only
+  rule in `ig-dm` while outreach is paused.
+- **PATHS.md** - how to repoint the five working files the skills reference.
+
 ## The fine print, which is the honest part
 
 **These skills do not post to Instagram.** There is a real Content Publishing
