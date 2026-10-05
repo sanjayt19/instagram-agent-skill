@@ -127,6 +127,11 @@ Write it separately, every time. It is read before it is heard.
 - **Do not write a script around a trending audio the user cannot use.** If the
   idea needs the user's own voice, say so.
 
+## Ungated mode
+
+When UNGATED.md is active, the last 3 seconds deliver the payoff, then stop.
+No ask. The loop-back line stays; it is craft, not a CTA.
+
 ## Example
 
 ```

@@ -75,6 +75,12 @@ type no smaller than 32px, because this is read on a phone at a third of its
 real size. If the project has a brand skill or a design system, use it and do
 not invent a palette.
 
+## Ungated mode
+
+When UNGATED.md is active, the last slide is the payoff, not a CTA. End on
+pure value (checklist, script, guide). No "comment KEYWORD" slide, no follow
+ask, no brand footer on any slide. The recap (screenshot) slide stays.
+
 ## Output
 
 The slide-by-slide copy first, as a numbered list the user can read in ten

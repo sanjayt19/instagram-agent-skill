@@ -78,6 +78,14 @@ We tried that and it cost us a renewal that was otherwise fine.
 Post the first. It concedes something and it has a number in it.
 ```
 
+## Flagged-account mode
+
+If the account has ever been flagged for automated behavior, the engagement
+round is manual and conservative: max 5 comment drafts per round, the user
+posts each one by hand, spaced out, never in a burst. No scheduling, no
+batch-posting tools. At the first warning of any kind, stop everything and
+tell the user before drafting another word.
+
 ## Batch mode
 
 For an engagement round, ask for the 5 to 10 posts as pasted text in one

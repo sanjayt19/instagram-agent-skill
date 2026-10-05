@@ -96,6 +96,12 @@ python3 caption.py draft.txt --keywords "client proposals,agency pricing"
 - **Alt text is worth 20 seconds.** For carousels and photos, write it. It is
   read by screen readers and by Instagram.
 
+## Ungated mode
+
+When UNGATED.md is active, the "one ask" rule is suspended: no ask at all. No
+keyword, no "link in bio", no follow-bait. The caption ends on the thought.
+Job A and Job B both apply; neither gets an ask.
+
 ## The loop
 
 1. Decide Job A or Job B and say which.

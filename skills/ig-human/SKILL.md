@@ -100,6 +100,18 @@ does tend to move those numbers, because they are measuring the same underlying
 things. That is the claim. Do not make a bigger one on the user's behalf, and
 do not tell a user their text is undetectable.
 
+## Brand lexicons
+
+Both tools take `--lexicon` to swap the word list. `slop-shvii.json` (built
+by `build-shvii-lexicon.py`) is the base lexicon plus a career-content ban
+list, tagged family `shvii` in reports. Re-run the build script after any
+base update; never hand-edit the generated file.
+
+```bash
+python3 humanize.py draft.txt --lexicon slop-shvii.json --report
+python3 detect.py draft.txt --lexicon slop-shvii.json
+```
+
 ## Order of operations
 
 1. `humanize.py draft.txt -o clean.txt --report`

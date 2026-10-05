@@ -74,6 +74,13 @@ Anchor times to the audience's timezone, not the user's, if those differ.
 
 Hand the list to `/ig-comment`.
 
+## Flagged-account mode
+
+The engagement round above assumes a healthy account. If the account has ever
+been flagged for automated behavior, halve it: 10 minutes a day, and skip the
+round entirely on any day a warning appears. Drafts go through `/ig-comment`;
+the user posts by hand. Never automate the round itself.
+
 ## Output
 
 ```
